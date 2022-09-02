@@ -1,14 +1,13 @@
 # Terraform Block
 terraform {
-  required_version = ">= 0.15"
+  required_version = ">= 1.2.8"
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
-      version = ">= 2.0"
+      version = ">= 3.21.0"
     }
   }
 }
-
 # Provider-1 for EastUS (Default Provider)
 provider "azurerm" {
   features {}
@@ -18,7 +17,8 @@ provider "azurerm" {
 provider "azurerm" {
   features {
     virtual_machine {
-      delete_os_disk_on_deletion = false # This will ensure when the Virtual Machine is destroyed, Disk is not deleted, default is true and we can alter it at provider level
+      delete_os_disk_on_deletion = false # This will ensure when the Virtual Machine is destroyed,
+                                        # Disk is not deleted, default is true and we can alter it at provider level
     }
   }
   alias = "provider2-westus"
