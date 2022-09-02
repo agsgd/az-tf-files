@@ -1,8 +1,5 @@
-# [Terraform on Azure with IaC DevOps and SRE | Real-World 25 Demos](https://links.stacksimplify.com/terraform-on-azure-with-iac-devops-sre)
-
-[![Image](https://stacksimplify.com/course-images/terraform-on-azure-with-iac-azure-devops-sre-1.png "Terraform on Azure with IaC DevOps and SRE | Real-World 25 Demos")](https://links.stacksimplify.com/terraform-on-azure-with-iac-devops-sre)
-
-
+# Terraform offical github-repo link
+https://github.com/hashicorp/terraform-provider-azurerm
 ## Course Modules
 01. Infrastructure as Code (IaC)
 02. Install Tools on MacOs, LinuxOS and WindowsOS
